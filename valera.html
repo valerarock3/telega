@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>регистрация</title>
 </head>
 <body>
-    
-<h1>макс привет</h1>
 
+<!-- САЙТ СТРУКТУРА -->
+
+
+    <h1>Форма регистрации</h1>
+    <form action="submit.php" method="post">
+<!-- ПУТЬ ОТПРАВЛЕНИЕ ДАННЫХ -->
+
+        <label for="name">Введите ваше имя:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phone">Введите ваш номер телефона:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">введите вашу почту:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">придумайте пороль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Отправить">
+
+<!-- HTML СТРУКТУРА ЗАПРОСОВ ДАННЫХ У ПОЛЬЗОВАТЕЛЯ -->
+
+
+    </form>
+    
 
 </body>
 </html>
